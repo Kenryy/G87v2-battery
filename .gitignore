@@ -1,0 +1,27 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- PyInstaller 构建产物 ----
+# 注意：MchoseBattery.spec 要入库，所以不能整体忽略 *.spec
+build/
+dist/
+
+# ---- 逆向抓包脚本与调试日志（本地研究用，不入库）----
+probe/
+
+# ---- 运行时生成的配置（含本机路径）----
+config.json
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- AI 助手工作目录（含会话记忆）----
+.workbuddy/
